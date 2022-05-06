@@ -30,7 +30,6 @@ streamlit.dataframe(my_fruit_list)
 streamlit.header('fruityvice Fruit Advice!')
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json())
 
 
 #take the json version of the version and normalise it 
